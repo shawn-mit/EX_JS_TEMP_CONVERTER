@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Temp Converter </title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+ 
+ 	
+		<label> Enter temperature: </label>
+		<br>
+
+		<!-- cleared value from resetform -->
+		<input type="number" id="input" >
+
+			<br>
+
+		<label for= "C"> Celsius </label>
+		<input type="radio" name="temp" id="C" check="checked">
+		<br>
+
+		<label for="F"> Farenheit </label>
+
+		<input type="radio" name="temp"	id="F"> <br>
+
+		<button type="button" id="submit"> Submit</button>
+
+		<button type="button" id="clear"> Clear </button>
+
+
+		<!--reference from script of function resetform () --> 
+		<div id="output"> </div>
+
+
+
+
+	<script src="script.js"> </script>
+</body>
+</html>
